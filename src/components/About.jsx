@@ -9,19 +9,9 @@ export function About() {
           <p className="">{about}</p>
 
            <div className="mt-6 text-primary">
-            {/* <h4 className="text-lg">Experience:</h4> */}
+           
             <div className="pl-1 my-2">
-              {/* <div className="flex gap-2 my-2">
-                <span>{arrowIcon}</span>
-                <div className="flex flex-col">
-                  <p>Centricwave LLP</p>
-                  <p className="text-xs pl-2">Software Engineering Intern</p>
-                </div>
-              </div> */}
-              {/* <div className="flex gap-2 items-center">
-                <span>{arrowIcon}</span>
-                <div className="text-sm">Tech Stack : React.js, Nextjs.</div>
-              </div> */}
+            
             </div>
           </div> 
 
@@ -39,7 +29,7 @@ export function About() {
               </div>
               <div className="flex gap-2 items-center">
                 {/* <span>{arrowIcon}</span> */}
-                <div className="text-sm">CGPA : 8.67</div>
+                <div className="text-sm">CGPA : 8.64</div>
               </div>
             </div>
           </div>
