@@ -51,7 +51,7 @@ export function Profile() {
 
 <a
   className="bg-bodyBg flex items-center p-2 gap-2 h-10 rounded-md text-sm md:text-sm max-sm:hidden hover:ring-2 hover:ring-primary"
-  href="https://github.com/shristi-29"  // Replace with your GitHub profile link
+  href="https://github.com/shri2310sti"  
   target="_blank"
 >
   <span>
