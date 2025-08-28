@@ -8,8 +8,8 @@ import { colors } from "../data/data";
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 export function ProblemsSolved() {
-  const [easy, setEasy] = useState(10);
-  const [medium, setMedium] = useState(20);
+  const [easy, setEasy] = useState(107);
+  const [medium, setMedium] = useState(49);
   const [hard, setHard] = useState(30);
 
   const data = {
