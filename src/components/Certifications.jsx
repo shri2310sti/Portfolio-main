@@ -46,7 +46,7 @@ export function Certifications() {
           </div>
 
           {/* Certification 3 - MongoDB */}
-          <div className="bg-gradient-to-r from-green-400 to-blue-500 p-6 rounded-lg shadow-lg">
+          <div className="bg-gradient-to-r from-indigo-400 to-pink-500 p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-bold text-white">MongoDB Associate Database Administrator</h3>
             <p className="text-gray-200">FACE Prep</p>
             <p className="text-sm text-gray-300">Issued: April 2025</p>
