@@ -1,8 +1,9 @@
 import React from 'react';
 import nptelImage from '../assets/nptel.png';
-import nptelImage2 from '../assets/marketAnalytics.png'
+import nptelImage2 from '../assets/marketAnalytics.png';
 import blockchainImage2 from '../assets/blockchain.png';
 import blockchainImage1 from '../assets/blockchain1.png';
+import mongoCertificate from '../assets/mongoCertificate.png'; 
 
 export function Certifications() {
   return (
@@ -16,7 +17,7 @@ export function Certifications() {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
           {/* Certification 1 */}
           <div className="bg-gradient-to-r from-blue-400 to-purple-500 p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-bold text-white">The Bits and Bytes of Computer Networking </h3>
+            <h3 className="text-xl font-bold text-white">The Bits and Bytes of Computer Networking</h3>
             <p className="text-gray-200">Coursera</p>
             <p className="text-sm text-gray-300">Issued: December 2023</p>
             <a
@@ -44,7 +45,22 @@ export function Certifications() {
             </a>
           </div>
 
-          {/* Certification 3 */}
+          {/* Certification 3 - MongoDB */}
+          <div className="bg-gradient-to-r from-green-400 to-blue-500 p-6 rounded-lg shadow-lg">
+            <h3 className="text-xl font-bold text-white">MongoDB Associate Database Administrator</h3>
+            <p className="text-gray-200">FACE Prep</p>
+            <p className="text-sm text-gray-300">Issued: April 2025</p>
+            <a
+              href={mongoCertificate}
+              className="text-black mt-2 inline-block underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Certificate
+            </a>
+          </div>
+
+          {/* Certification 4 */}
           <div className="bg-gradient-to-r from-indigo-400 to-pink-500 p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-bold text-white">Market Analytics</h3>
             <p className="text-gray-200">NPTEL</p>
@@ -59,7 +75,7 @@ export function Certifications() {
             </a>
           </div>
 
-          {/* Certification 4 */}
+          {/* Certification 5 */}
           <div className="bg-gradient-to-r from-indigo-400 to-pink-500 p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-bold text-white">Blockchain Fundamentals</h3>
             <p className="text-gray-200">IBM Career Education Program</p>
@@ -74,7 +90,7 @@ export function Certifications() {
             </a>
           </div>
 
-          {/* Certification 5 */}
+          {/* Certification 6 */}
           <div className="bg-gradient-to-r from-indigo-400 to-pink-500 p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-bold text-white">Blockchain Developer</h3>
             <p className="text-gray-200">IBM Career Education Program</p>
